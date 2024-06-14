@@ -12,8 +12,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-2">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
+            <div class="container" style="Background-color:darkgray">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebBanHang</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,8 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container">       
+       
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -43,7 +44,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - WebBanHang - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; Chế Văn Trường - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
